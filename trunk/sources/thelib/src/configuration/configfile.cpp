@@ -324,7 +324,12 @@ bool ConfigFile::NormalizeApplications() {
 		_rootAppFolder = ".";
 	if (_rootAppFolder[_rootAppFolder.size() - 1] != PATH_SEPARATOR)
 		_rootAppFolder += PATH_SEPARATOR;
-
+#if WIN32
+	INFO(" at first , _rootAppFolder : %s \n",STR(_rootAppFolder) );
+	string zhangbin = "J:\\media\\XLIVE\\Mona\\crtmpd\\crtmpserver\\trunk\\builders\\VS2010\\Debug";
+	_rootAppFolder = zhangbin + "\\" + _rootAppFolder;
+	INFO("change _rootAppFolder : %s \n",STR( _rootAppFolder));
+#endif
 	_applications.IsArray(true);
 
 	FOR_MAP(temp, string, Variant, i) {
@@ -372,6 +377,7 @@ bool ConfigFile::NormalizeApplication(Variant &node) {
 	temp = normalizePath(appDir, "");
 	if (temp == "") {
 		WARN("Path not found: %s", STR(appDir));
+		INFO("_rootAppFolder:%s and name : %s", STR(_rootAppFolder), STR(name));
 	} else {
 		appDir = temp;
 	}

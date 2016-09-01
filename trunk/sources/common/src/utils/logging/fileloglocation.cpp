@@ -43,6 +43,11 @@ bool FileLogLocation::Init() {
 		return false;
 	_fileName = (string) _configuration.GetValue(
 			CONF_LOG_APPENDER_FILE_NAME, false);
+	INFO("_filename [%s]\n",STR(_fileName)); /* [/tmp/crtmpserver]*/
+#if WIN32
+	string zhangbin = "J:\\media\\XLIVE\\Mona\\crtmpd\\crtmpserver\\trunk\\builders\\VS2010\\Debug\\";
+	_fileName = zhangbin;/*add by me*/
+#endif
 	if (_configuration.HasKeyChain(V_STRING, false, 1,
 			CONF_LOG_APPENDER_NEW_LINE_CHARACTERS))
 		_newLineCharacters = (string) _configuration.GetValue(

@@ -67,7 +67,7 @@ bool ClientApplicationManager::RegisterApplication(BaseClientApplication* pClien
 		_applicationsByName[VECTOR_VAL(i)] = pClientApplication;
 	}
 
-	if (pClientApplication->IsDefault())
+	if (pClientApplication->IsDefault()) 
 		_pDefaultApplication = pClientApplication;
 	return true;
 }
@@ -115,6 +115,7 @@ BaseClientApplication *ClientApplicationManager::FindAppById(uint32_t id) {
 	return NULL;
 }
 
+/*获取所有客户端应用*/
 map<uint32_t, BaseClientApplication *> ClientApplicationManager::GetAllApplications() {
 	return _applicationsById;
 }

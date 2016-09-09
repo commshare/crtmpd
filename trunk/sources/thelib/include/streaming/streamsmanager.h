@@ -36,15 +36,15 @@ private:
 	BaseClientApplication *_pApplication;
 	uint32_t _uniqueIdGenerator;
 	map<uint32_t, BaseStream *> _streamsByUniqueId;
-	map<uint32_t, map<uint32_t, BaseStream *> > _streamsByProtocolId;
-	map<uint64_t, map<uint32_t, BaseStream * > > _streamsByType;
+	map<uint32_t, map<uint32_t, BaseStream *> > _streamsByProtocolId; /*协议id是uint32_t*/
+	map<uint64_t, map<uint32_t, BaseStream * > > _streamsByType;/*类型是uint64_t*/
 	map<string, map<uint32_t, BaseStream * > > _streamsByName;
 public:
 	StreamsManager(BaseClientApplication *pApplication);
 	virtual ~StreamsManager();
 
 	/*!
-		@brief Returns an unique id to be used inside newly created streams
+		@brief Returns an unique id to be used inside newly created streams 新创建的流分配一个唯一id
 	 */
 	uint32_t GenerateUniqueId();
 
@@ -67,7 +67,7 @@ public:
 	void UnRegisterStreams(uint32_t protocolId);
 
 	/*!
-		@brief Checks and see if the duplicate inbound network streams are available. Always returns true if allowDuplicateNetworkStreams is set to true inside the config file
+		@brief Checks and see if the duplicate inbound network streams are available. Always returns true if allowDuplicateNetworkStreams复制网络流 is set to true inside the config file
 		@param streamName - The stream name we want to see is free or not
 	 */
 	bool StreamNameAvailable(string streamName);
@@ -78,7 +78,7 @@ public:
 	map<uint32_t, BaseStream *> GetAllStreams();
 
 	/*!
-		@brief Returns all the outbound streams waiting for a inbound stream called
+		@brief Returns all the outbound streams waiting for a inbound stream called 返回所有在等待被调用了的入站流的出站流
 		@param streamName who has the type inboundStreamType
 		@param inboundStreamType
 	 */

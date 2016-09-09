@@ -519,7 +519,7 @@ uint32_t IOBuffer::GetMinChunkSize() {
 }
 
 void IOBuffer::SetMinChunkSize(uint32_t minChunkSize) {
-	o_assert(minChunkSize > 0 && minChunkSize < 16 * 1024 * 1024);
+	o_assert(minChunkSize > 0 && minChunkSize < 16 * 1024 * 1024); /*16M*/
 	_minChunkSize = minChunkSize;
 }
 
@@ -567,7 +567,7 @@ bool IOBuffer::MoveData() {
 	return true;
 }
 
-#define OUTSTANDING (_published - _consumed)
+#define OUTSTANDING (_published - _consumed)  /*Î´Íê³ÉµÄ*/
 #define AVAILABLE (_size - _published)
 #define TOTAL_AVAILABLE (AVAILABLE+_consumed)
 #define NEEDED (OUTSTANDING + expected)
@@ -625,7 +625,7 @@ bool IOBuffer::EnsureSize(uint32_t expected) {
 	return true;
 }
 
-string IOBuffer::DumpBuffer(const uint8_t *pBuffer, uint32_t length) {
+string IOBuffer::DumpBuffer(const uint8_t * pBuffer, uint32_t length) {
 	IOBuffer temp;
 	temp.ReadFromBuffer(pBuffer, length);
 	return temp.ToString();

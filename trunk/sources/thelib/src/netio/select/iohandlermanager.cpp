@@ -258,7 +258,7 @@ bool IOHandlerManager::Pulse() {
 	}
 
 	//4. Start crunching the sets
-
+	/*obs下有14个元素*/
 	FOR_MAP(_activeIOHandlers, uint32_t, IOHandler *, i) {
 		if (FD_ISSET(MAP_VAL(i)->GetInboundFd(), &_readFdsCopy)) {
 			_currentEvent.type = SET_READ;

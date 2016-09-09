@@ -50,7 +50,9 @@ bool ConfigFile::IsOrigin() {
 	return _isOrigin;
 }
 
+/*返回所有客户端应用的信息*/
 string ConfigFile::GetServicesInfo() {
+	/*得到七个应用*/
 	map<uint32_t, BaseClientApplication *> applications = ClientApplicationManager::GetAllApplications();
 
 	stringstream ss;
@@ -189,7 +191,7 @@ bool ConfigFile::ConfigInstances() {
 bool ConfigFile::ConfigApplications() {
 
 	FOR_MAP(_modules, string, Module, i) {
-		if (!MAP_VAL(i).ConfigApplication()) {
+		if (!MAP_VAL(i).ConfigApplication()) { /*像flvplayback这种就是一个module*/
 			FATAL("Unable to configure acceptors");
 			return false;
 		}

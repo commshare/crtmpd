@@ -58,7 +58,7 @@ bool InboundRTMPProtocol::PerformHandshake(IOBuffer &buffer) {
 			if (GETAVAILABLEBYTESCOUNT(buffer) < 1537) {
 				return true;
 			}
-			uint8_t handshakeType = GETIBPOINTER(buffer)[0];
+			uint8_t handshakeType = GETIBPOINTER(buffer)[0]; /*消息头*/
 			if (!buffer.Ignore(1)) {
 				FATAL("Unable to ignore one byte");
 				return false;
@@ -67,7 +67,7 @@ bool InboundRTMPProtocol::PerformHandshake(IOBuffer &buffer) {
 			_currentFPVersion = ENTOHLP(GETIBPOINTER(buffer) + 4);
 
 			switch (handshakeType) {
-				case 3: //plain
+				case 3: //plain  //未经加密的
 				{
 					return PerformHandshake(buffer, false);
 				}
@@ -122,11 +122,11 @@ bool InboundRTMPProtocol::PerformHandshake(IOBuffer &buffer) {
 }
 
 bool InboundRTMPProtocol::ValidateClient(IOBuffer &inputBuffer) {
-	if (_currentFPVersion == 0) {
+	if (_currentFPVersion == 0) { /*验证版本*/
 		//WARN("This version of player doesn't support validation");
 		return false;
 	}
-	if (ValidateClientScheme(inputBuffer, 0)) {
+	if (ValidateClientScheme(inputBuffer, 0)) { /* 这里就是传说中的单独处理最末尾32bytes的  */
 		_usedScheme = 0;
 		return true;
 	}

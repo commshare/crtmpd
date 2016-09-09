@@ -139,6 +139,10 @@ bool StreamMetadataResolver::InitializeStorage(string name, Variant &config,
 	//mediaFolder
 	string tempString = (string) config.GetValue(CONF_APPLICATION_MEDIAFOLDER, false);
 	string mediaFolder = normalizePath(tempString, "");
+#if WIN32
+	string zhangbin = "J:\\media\\XLIVE\\Mona\\crtmpd\\crtmpserver\\trunk\\builders\\VS2010\\Debug\\mediaFolder";
+	mediaFolder = zhangbin;/*add by me*/
+#endif
 	if (mediaFolder == "") {
 		WARN("mediaFolder not found: %s", STR(tempString));
 		return false;

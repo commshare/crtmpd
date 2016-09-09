@@ -99,7 +99,7 @@ private:
 		uint32_t ui32;
 		uint64_t ui64;
 		double d;
-		Timestamp *t;
+		Timestamp *t;	
 		string *s;
 		VariantMap *m;
 	} _value;

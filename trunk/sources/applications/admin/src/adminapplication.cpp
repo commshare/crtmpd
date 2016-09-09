@@ -56,9 +56,9 @@ bool AdminApplication::Initialize() {
 		FATAL("Unable to initialize application");
 		return false;
 	}
-	//TODO: Add your app init code here
+	//TODO: Add your app init code here 在这里加入自己的app代码
 	//Things like parsing custom sections inside _configuration for example,
-	//initialize the protocol handler(s)
+	//initialize the protocol handler(s) 初始化协议句柄
 
 	//1. Initialize the protocol handler(s)
 #ifdef HAS_PROTOCOL_RTMP

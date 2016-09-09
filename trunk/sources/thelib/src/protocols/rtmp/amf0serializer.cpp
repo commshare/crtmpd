@@ -165,7 +165,8 @@ bool AMF0Serializer::ReadDouble(IOBuffer &buffer, Variant &variant,
 		}
 	}
 
-	AMF_CHECK_BOUNDARIES(buffer, 8);
+	AMF_CHECK_BOUNDARIES(buffer, 8); /*这里要有8个字节 amf0*/
+	DEBUG("output [%s]", STR(buffer.ToString(0, 0)));
 	double temp = 0;
 	ENTOHDP(GETIBPOINTER(buffer), temp);
 	variant = (double) temp;

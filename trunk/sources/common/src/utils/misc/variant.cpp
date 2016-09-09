@@ -915,7 +915,7 @@ bool Variant::HasKey(const string &key, bool caseSensitive) {
 	} else {
 
 		FOR_MAP(*this, string, Variant, i) {
-			if (lowerCase(MAP_KEY(i)) == lowerCase(key))
+			if (lowerCase(MAP_KEY(i)) == lowerCase(key)) /*其中一个key是mediaFolder*/
 				return true;
 		}
 		return false;

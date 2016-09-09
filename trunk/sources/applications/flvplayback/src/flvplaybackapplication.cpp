@@ -99,6 +99,7 @@ FLVPlaybackApplication::~FLVPlaybackApplication() {
 }
 
 bool FLVPlaybackApplication::Initialize() {
+	/*明确的调用父类BaseClientApplication的方法*/
 	if (!BaseClientApplication::Initialize()) {
 		FATAL("Unable to initialize application");
 		return false;

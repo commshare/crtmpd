@@ -40,7 +40,7 @@ enum OperationType {
 /*!
 	@brief
  */
-class DLLEXP BaseClientApplication {
+class DLLEXP BaseClientApplication { /*客户端应用基类*/
 private:
 	static uint32_t _idGenerator;
 	uint32_t _id;
@@ -48,7 +48,7 @@ private:
 	vector<string> _aliases;
 	map<uint64_t, BaseAppProtocolHandler *> _protocolsHandlers;
 	StreamsManager _streamsManager;
-	map<string, string> _streamAliases;
+	map<string, string> _streamAliases; /*流别名*/
 	bool _hasStreamAliases;
 	StreamMetadataResolver *_pStreamMetadataResolver;
 	Variant _dummy;
@@ -160,10 +160,10 @@ public:
 	 */
 	virtual void SignalStreamUnRegistered(BaseStream *pStream);
 
-	virtual bool PullExternalStreams();
-	virtual bool PullExternalStream(Variant &streamConfig);
-	virtual bool PushLocalStream(Variant &streamConfig);
-	bool ParseAuthentication();
+	virtual bool PullExternalStreams();   /*拉取外部流*/
+	virtual bool PullExternalStream(Variant &streamConfig);  
+	virtual bool PushLocalStream(Variant &streamConfig);  /*推送本地流*/
+	bool ParseAuthentication();  /*解析授权*/
 
 	virtual void SignalUnLinkingStreams(BaseInStream *pInStream, BaseOutStream *pOutStream);
 

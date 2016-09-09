@@ -106,7 +106,7 @@ bool BaseClientApplication::Initialize() {
 }
 
 bool BaseClientApplication::ActivateAcceptors(vector<IOHandler *> &acceptors) {
-	for (uint32_t i = 0; i < acceptors.size(); i++) {
+	for (uint32_t i = 0; i < acceptors.size(); i++) { /*只有一个*/
 		if (!ActivateAcceptor(acceptors[i])) {
 			FATAL("Unable to activate acceptor");
 			return false;
@@ -117,7 +117,7 @@ bool BaseClientApplication::ActivateAcceptors(vector<IOHandler *> &acceptors) {
 
 bool BaseClientApplication::ActivateAcceptor(IOHandler *pIOHandler) {
 	switch (pIOHandler->GetType()) {
-		case IOHT_ACCEPTOR:
+		case IOHT_ACCEPTOR: /*这个就是TCP吧*/
 		{
 			TCPAcceptor *pAcceptor = (TCPAcceptor *) pIOHandler;
 			pAcceptor->SetApplication(this);

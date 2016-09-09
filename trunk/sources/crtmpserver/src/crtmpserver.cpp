@@ -259,7 +259,7 @@ bool Initialize() {
 	IOHandlerManager::Start();
 
 	INFO("Configure applications");
-	if (!gRs.pConfigFile->ConfigApplications()) {
+	if (!gRs.pConfigFile->ConfigApplications()) { /*配置各类客户端应用*/
 		FATAL("Unable to configure applications");
 		return false;
 	}

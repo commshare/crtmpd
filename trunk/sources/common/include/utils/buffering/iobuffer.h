@@ -56,12 +56,12 @@ public:
 	virtual ~IOBuffer();
 
 	/*!
-		@brief initializes the buffer
+		@brief initializes the buffer  使用期望的缓冲大小初始化缓冲
 		@param expected - The expected size of this buffer
 	 */
 	void Initialize(uint32_t expected);
 
-	/*!
+	/*!  从TCP文件描述符读取并保存数据，这个是面向连接的socket的。
 		@brief Read from TCP File Descriptor and saves it. This function is advisable for connection-oriented sockets.
 		@param fd - Descriptor that contains the data
 		@param expected - Expected size of the receiving buffer
@@ -86,7 +86,7 @@ public:
 	bool ReadFromStdio(int32_t fd, uint32_t expected, int32_t &recvAmount);
 
 	/*!
-		@brief Read from File Stream and saves it
+		@brief Read from File Stream and saves it  从文件流读取并保存
 		@param fs - Descriptor that contains the data
 		@param size - Size of the receiving buffer
 	 */
@@ -156,7 +156,7 @@ public:
 	bool WriteToTCPFd(int32_t fd, uint32_t size, int32_t &sentAmount, int &err);
 
 	/*!
-		@brief Read data from standard IO and store it.
+		@brief Read data from standard IO and store it. 从标准IO读取数据并存储数据。
 		@param fd
 		@param size
 	 */
@@ -175,19 +175,19 @@ public:
 	void SetMinChunkSize(uint32_t minChunkSize);
 
 	/*!
-		@brief Returns the size of the buffer that has already been written on.
+		@brief Returns the size of the buffer that has already been written on. 返回已经写入后的缓冲大小
 	 */
 	uint32_t GetCurrentWritePosition();
 
 	/*!
-		@brief Returns the pointer to the buffer
+		@brief Returns the pointer to the buffer 返回指向缓冲的指针
 	 */
 	uint8_t *GetPointer();
 
-	//memory management
+	//memory management 内存管理
 
 	/*!
-		@brief Ignores a specified size of data in the buffer
+		@brief Ignores a specified size of data in the buffer 忽略缓冲中指定大小的数据
 		@param size
 	 */
 	bool Ignore(uint32_t size);
@@ -198,11 +198,11 @@ public:
 	bool IgnoreAll();
 
 	/*!
-		@brief Moves the data in a buffer to optimize memory space
+		@brief Moves the data in a buffer to optimize memory space  移动缓冲中的数据以优化内存空间
 	 */
 	bool MoveData();
 
-	/*!
+	/*! 确保缓冲大小足够，不够就新建一个缓冲并把原有缓冲的数据复制进去。
 		@brief Makes sure that there is enough memory space in the buffer. If space is not enough, a new buffer is created.
 		@param expected - This function makes sure that the size indicated by this parameter is accommodated.
 		@discussion In the case that a new buffer is created and the current buffer has data, the data is copied to the new buffer.

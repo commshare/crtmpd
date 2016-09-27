@@ -23,6 +23,7 @@
 #include "protocols/rtmp/amftypes.h"
 
 RTMPProtocolSerializer::RTMPProtocolSerializer() {
+	INFO("IN RTMPProtocolSerializer constructor \n");
 }
 
 RTMPProtocolSerializer::~RTMPProtocolSerializer() {

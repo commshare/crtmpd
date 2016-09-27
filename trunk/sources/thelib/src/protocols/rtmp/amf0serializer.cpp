@@ -22,10 +22,12 @@
 #include "protocols/rtmp/amf3serializer.h"
 #include "protocols/rtmp/amftypes.h"
 
-vector<string> AMF0Serializer::_keysOrder;
+vector<string> AMF0Serializer::_keysOrder; /*静态成员变量初始化,这个时候vector大小为0*/
 uint8_t AMF0Serializer::_endOfObject[] = {0, 0, 9};
 
 AMF0Serializer::AMF0Serializer() {
+	INFO("IN AMF0Serializer constructor \n");
+
 	if (_keysOrder.size() <= 0) {
 		ADD_VECTOR_END(_keysOrder, "app");
 		ADD_VECTOR_END(_keysOrder, "flashVer");
@@ -166,6 +168,7 @@ bool AMF0Serializer::ReadDouble(IOBuffer &buffer, Variant &variant,
 	}
 
 	AMF_CHECK_BOUNDARIES(buffer, 8); /*这里要有8个字节 amf0*/
+	/*add for debug amf0serializer.cpp:168 Not enough data. Wanted: 8; Got: 6*/
 	DEBUG("output [%s]", STR(buffer.ToString(0, 0)));
 	double temp = 0;
 	ENTOHDP(GETIBPOINTER(buffer), temp);

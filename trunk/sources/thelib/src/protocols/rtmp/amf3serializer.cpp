@@ -43,7 +43,7 @@ if (writeType) { \
 }
 
 AMF3Serializer::AMF3Serializer() {
-
+	INFO("IN AMF3Serializer constructor \n");
 }
 
 AMF3Serializer::~AMF3Serializer() {

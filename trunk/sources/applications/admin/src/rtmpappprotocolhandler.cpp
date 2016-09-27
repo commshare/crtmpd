@@ -25,9 +25,16 @@
 #include "netio/netio.h"
 using namespace app_admin;
 
+/* http://blog.csdn.net/hemmingway/article/details/7853713
+1. 如果子类没有定义构造方法，则调用父类的无参数的构造方法。
+2. 如果子类定义了构造方法，不论是无参数还是带参数，在创建子类的对象的时候,首先执行父类无参数的构造方法，然后执行自己的构造方法。
+3. 在创建子类对象时候，如果子类的构造函数没有显示调用父类的构造函数，则会调用父类的默认无参构造函数。
+4. 在创建子类对象时候，如果子类的构造函数没有显示调用父类的构造函数且父类自己提供了无参构造函数，则会调用父类自己的无参构造函数。
+5. 在创建子类对象时候，如果子类的构造函数没有显示调用父类的构造函数且父类只定义了自己的有参构造函数，则会出错（如果父类只有有参数的构造方法，则子类必须显示调用此带参构造方法）。
+*/
 RTMPAppProtocolHandler::RTMPAppProtocolHandler(Variant &configuration)
-: BaseRTMPAppProtocolHandler(configuration) {
-
+: BaseRTMPAppProtocolHandler(configuration)/*同时对基类进行初始化*/ {
+	INFO("IN RTMPAppProtocolHandler constructor \n");
 }
 
 RTMPAppProtocolHandler::~RTMPAppProtocolHandler() {

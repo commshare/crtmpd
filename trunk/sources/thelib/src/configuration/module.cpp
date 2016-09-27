@@ -181,21 +181,24 @@ bool Module::ConfigApplication() {
 		pApplication = NULL;
 		return false;
 	}
+	/*在这里处理各种协议*/
 	if (!pApplication->Initialize()) {
 		FATAL("Unable to initialize the application: %s", STR(pApplication->GetName()));
 		return false;
 	}
+	INFO("after Application %s Initialize() ", STR(pApplication->GetName()));
 
 	if (!pApplication->ParseAuthentication()) {
 		FATAL("Unable to parse authetication for application %s", STR(pApplication->GetName()));
 		return false;
 	}
+	INFO("after Application %s ParseAuthentication() ", STR(pApplication->GetName()));
 
 	if (!pApplication->ActivateAcceptors(acceptors)) {
 		FATAL("Unable to activate acceptors for application %s", STR(pApplication->GetName()));
 		return false;
 	}
-
+	INFO("after Application %s ActivateAcceptors() ", STR(pApplication->GetName()));
 	return true;
 }
 

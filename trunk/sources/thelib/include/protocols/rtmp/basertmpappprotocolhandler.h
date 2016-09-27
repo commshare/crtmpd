@@ -35,7 +35,7 @@ class ClientSO;
 class DLLEXP BaseRTMPAppProtocolHandler
 : public BaseAppProtocolHandler {
 protected:
-	RTMPProtocolSerializer _rtmpProtocolSerializer;
+	RTMPProtocolSerializer _rtmpProtocolSerializer; /*base 基类rtmp的app的协议处理器，有一个rtmp协议序列化器,在这里会调用 RTMPProtocalSerializer的构造函数*/
 	SOManager _soManager;
 	bool _validateHandshake;
 	bool _enableCheckBandwidth;

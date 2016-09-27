@@ -157,7 +157,7 @@ bool InboundLiveFLVProtocol::SignalInputData(IOBuffer &buffer) {
 			}
 			case 18:
 			{
-				AMF0Serializer amf0;
+				AMF0Serializer amf0; /*会调用构造函数吧,*/
 
 				//1. get the raw buffer
 				IOBuffer metaBuffer;

@@ -55,6 +55,7 @@ AppSelectorApplication::~AppSelectorApplication() {
 #endif /* HAS_PROTOCOL_HTTP */
 }
 
+/*初始化并注册各种协议*/
 bool AppSelectorApplication::Initialize() {
 	if (!BaseClientApplication::Initialize()) {
 		FATAL("Unable to initialize application");

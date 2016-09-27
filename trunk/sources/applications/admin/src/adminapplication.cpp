@@ -61,8 +61,9 @@ bool AdminApplication::Initialize() {
 	//initialize the protocol handler(s) 初始化协议句柄
 
 	//1. Initialize the protocol handler(s)
-#ifdef HAS_PROTOCOL_RTMP
+#ifdef HAS_PROTOCOL_RTMP /*支持rtmp协议，创建rtmp app的协议处理*/
 	_pRTMPHandler = new RTMPAppProtocolHandler(_configuration);
+	/*注册一个新创建的句柄-rtmp的句柄，看起来这个句柄同时负责输入和输出？*/
 	RegisterAppProtocolHandler(PT_INBOUND_RTMP, _pRTMPHandler);
 	RegisterAppProtocolHandler(PT_OUTBOUND_RTMP, _pRTMPHandler);
 #endif /* HAS_PROTOCOL_RTMP */

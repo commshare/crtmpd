@@ -9,7 +9,7 @@
 #*.dll
 *.dylib
 *.so
-#trunk/builders/VS2010/Debug/
+trunk/builders/VS2010/
 #cmake
 /cmbuild/
 /build/

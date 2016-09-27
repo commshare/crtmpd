@@ -21,7 +21,7 @@
 #ifndef _VARIANTMAP_H
 #define	_VARIANTMAP_H
 
-struct VariantMap {
+struct VariantMap { /*采用struct关键字，结构体中定义的成员变量或成员函数默认都是public属性的，在struct外部可以随意访问。*/
 	string typeName;
 	map<string, Variant> children;
 	bool isArray;

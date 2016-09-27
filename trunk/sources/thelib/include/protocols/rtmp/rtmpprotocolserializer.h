@@ -27,8 +27,12 @@
 #include "protocols/rtmp/amf3serializer.h"
 #include "protocols/rtmp/channel.h"
 
-class DLLEXP RTMPProtocolSerializer {
+class DLLEXP RTMPProtocolSerializer { /*rtmp 的协议序列化*/
 private:
+	/*
+	出现成员对象时，该类的构造函数要包含对成员的初始化。如果构造函数的成员初始化列表没有对成员对象初始化时，则使用成员对象的缺省构造函数。
+	这俩类的构造函数确实被调用了。
+	*/
 	AMF0Serializer _amf0;
 	AMF3Serializer _amf3;
 	IOBuffer _internalBuffer;

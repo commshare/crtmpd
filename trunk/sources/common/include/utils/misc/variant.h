@@ -86,7 +86,7 @@ class TiXmlElement;
 
 class DLLEXP Variant {
 private:
-	VariantType _type;
+	VariantType _type; /*enum 类型*/
 
 	union {
 		bool b;
@@ -102,13 +102,14 @@ private:
 		Timestamp *t;	
 		string *s;
 		VariantMap *m;
-	} _value;
+	} _value; /*这是一个联合类型*/
 	char _pNumericKey[11];
-#ifdef LOG_VARIANT_MEMORY_MANAGEMENT
+#ifdef LOG_VARIANT_MEMORY_MANAGEMENT /*可变的内存管理，记录构造器多少个，动态分配多少个*/
 	static int _constructorCount;
 	static int _dynamicAllocationCount;
 #endif
 public:
+	/*下面是一堆构造函数*/
 	Variant();
 	Variant(const Variant &val);
 

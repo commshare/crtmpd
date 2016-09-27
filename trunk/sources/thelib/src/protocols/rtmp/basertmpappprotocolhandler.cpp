@@ -36,15 +36,18 @@
 
 #define ONBWCHECK_SIZE 32767
 
+/*base rtmp protocal handler 类只有有参数的构造函数，所有其子类，必须显示调用这个构造函数，初始化父类的成员变量。
+*/
 BaseRTMPAppProtocolHandler::BaseRTMPAppProtocolHandler(Variant &configuration)
 : BaseAppProtocolHandler(configuration) {
-	_validateHandshake = (bool)configuration[CONF_APPLICATION_VALIDATEHANDSHAKE];
+	INFO("IN BaseRTMPAppProtocolHandler constructor \n");
+	_validateHandshake = (bool)configuration[CONF_APPLICATION_VALIDATEHANDSHAKE]; //true
 	_enableCheckBandwidth = false;
 	if (_configuration.HasKeyChain(V_BOOL, false, 1, "enableCheckBandwidth")) {
 		_enableCheckBandwidth = (bool)_configuration.GetValue(
 				"enableCheckBandwidth", false);
 	}
-	if (_enableCheckBandwidth) {
+	if (_enableCheckBandwidth) { //true
 		Variant parameters;
 		parameters.PushToArray(Variant());
 		parameters.PushToArray(generateRandomString(ONBWCHECK_SIZE));

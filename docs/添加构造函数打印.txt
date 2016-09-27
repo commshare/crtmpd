@@ -1,0 +1,328 @@
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\crtmpserver\src\crtmpserver.cpp:139 Reading configuration from J:\media\XLIVE\Mona\crtmpd\crtmpserver\trunk\builders\VS2010\Debug\crtmpserver.lua
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\configfile.cpp:330  at first , _rootAppFolder : applications\
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\configfile.cpp:333 change _rootAppFolder : J:\media\XLIVE\Mona\crtmpd\crtmpserver\trunk\builders\VS2010\Debug\applications\
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\crtmpserver\src\crtmpserver.cpp:213 Configure logger
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\common\src\utils\logging\fileloglocation.cpp:46 _filename [/tmp/crtmpserver]
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\common\src\utils\logging\fileloglocation.cpp:46 _filename [/tmp/crtmpserver]
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\crtmpserver\src\crtmpserver.cpp:219 C++ RTMP Media Server (www.rtmpd.com) build  - (built on )
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\crtmpserver\src\crtmpserver.cpp:219 C++ RTMP Media Server (www.rtmpd.com) build  - (built on )
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\crtmpserver\src\crtmpserver.cpp:222 OS files descriptors count limits: 2048/2048
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\crtmpserver\src\crtmpserver.cpp:222 OS files descriptors count limits: 2048/2048
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\crtmpserver\src\crtmpserver.cpp:224 Initialize I/O handlers manager: select
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\crtmpserver\src\crtmpserver.cpp:224 Initialize I/O handlers manager: select
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\crtmpserver\src\crtmpserver.cpp:227 Configure modules
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\crtmpserver\src\crtmpserver.cpp:227 Configure modules
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:84 Module J:\media\XLIVE\Mona\crtmpd\crtmpserver\trunk\builders\VS2010\Debug\applications\appselector\appselector.dll loaded
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:84 Module J:\media\XLIVE\Mona\crtmpd\crtmpserver\trunk\builders\VS2010\Debug\applications\appselector\appselector.dll loaded
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:84 Module J:\media\XLIVE\Mona\crtmpd\crtmpserver\trunk\builders\VS2010\Debug\applications\flvplayback\flvplayback.dll loaded
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:84 Module J:\media\XLIVE\Mona\crtmpd\crtmpserver\trunk\builders\VS2010\Debug\applications\flvplayback\flvplayback.dll loaded
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:84 Module J:\media\XLIVE\Mona\crtmpd\crtmpserver\trunk\builders\VS2010\Debug\applications\samplefactory\samplefactory.dll loaded
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:84 Module J:\media\XLIVE\Mona\crtmpd\crtmpserver\trunk\builders\VS2010\Debug\applications\samplefactory\samplefactory.dll loaded
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:84 Module J:\media\XLIVE\Mona\crtmpd\crtmpserver\trunk\builders\VS2010\Debug\applications\vptests\vptests.dll loaded
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:84 Module J:\media\XLIVE\Mona\crtmpd\crtmpserver\trunk\builders\VS2010\Debug\applications\vptests\vptests.dll loaded
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:84 Module J:\media\XLIVE\Mona\crtmpd\crtmpserver\trunk\builders\VS2010\Debug\applications\admin\admin.dll loaded
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:84 Module J:\media\XLIVE\Mona\crtmpd\crtmpserver\trunk\builders\VS2010\Debug\applications\admin\admin.dll loaded
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:84 Module J:\media\XLIVE\Mona\crtmpd\crtmpserver\trunk\builders\VS2010\Debug\applications\proxypublish\proxypublish.dll loaded
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:84 Module J:\media\XLIVE\Mona\crtmpd\crtmpserver\trunk\builders\VS2010\Debug\applications\proxypublish\proxypublish.dll loaded
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:84 Module J:\media\XLIVE\Mona\crtmpd\crtmpserver\trunk\builders\VS2010\Debug\applications\stresstest\stresstest.dll loaded
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:84 Module J:\media\XLIVE\Mona\crtmpd\crtmpserver\trunk\builders\VS2010\Debug\applications\stresstest\stresstest.dll loaded
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\crtmpserver\src\crtmpserver.cpp:233 Plug in the default protocol factory
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\crtmpserver\src\crtmpserver.cpp:233 Plug in the default protocol factory
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\crtmpserver\src\crtmpserver.cpp:240 Configure factories
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\crtmpserver\src\crtmpserver.cpp:240 Configure factories
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:97 Loaded factory from application samplefactory
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:97 Loaded factory from application samplefactory
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\crtmpserver\src\crtmpserver.cpp:246 Configure acceptors
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\crtmpserver\src\crtmpserver.cpp:246 Configure acceptors
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\netio\select\iohandlermanager.cpp:98 Handlers count changed: 0->1 IOHT_ACCEPTOR
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\netio\select\iohandlermanager.cpp:98 Handlers count changed: 0->1 IOHT_ACCEPTOR
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\netio\select\iohandlermanager.cpp:98 Handlers count changed: 1->2 IOHT_ACCEPTOR
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\netio\select\iohandlermanager.cpp:98 Handlers count changed: 1->2 IOHT_ACCEPTOR
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\netio\select\iohandlermanager.cpp:98 Handlers count changed: 2->3 IOHT_ACCEPTOR
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\netio\select\iohandlermanager.cpp:98 Handlers count changed: 2->3 IOHT_ACCEPTOR
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\netio\select\iohandlermanager.cpp:98 Handlers count changed: 3->4 IOHT_ACCEPTOR
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\netio\select\iohandlermanager.cpp:98 Handlers count changed: 3->4 IOHT_ACCEPTOR
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\netio\select\iohandlermanager.cpp:98 Handlers count changed: 4->5 IOHT_ACCEPTOR
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\netio\select\iohandlermanager.cpp:98 Handlers count changed: 4->5 IOHT_ACCEPTOR
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\netio\select\iohandlermanager.cpp:98 Handlers count changed: 5->6 IOHT_ACCEPTOR
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\netio\select\iohandlermanager.cpp:98 Handlers count changed: 5->6 IOHT_ACCEPTOR
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\netio\select\iohandlermanager.cpp:98 Handlers count changed: 6->7 IOHT_ACCEPTOR
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\netio\select\iohandlermanager.cpp:98 Handlers count changed: 6->7 IOHT_ACCEPTOR
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\netio\select\iohandlermanager.cpp:98 Handlers count changed: 7->8 IOHT_ACCEPTOR
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\netio\select\iohandlermanager.cpp:98 Handlers count changed: 7->8 IOHT_ACCEPTOR
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\netio\select\iohandlermanager.cpp:98 Handlers count changed: 8->9 IOHT_ACCEPTOR
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\netio\select\iohandlermanager.cpp:98 Handlers count changed: 8->9 IOHT_ACCEPTOR
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\netio\select\iohandlermanager.cpp:98 Handlers count changed: 9->10 IOHT_ACCEPTOR
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\netio\select\iohandlermanager.cpp:98 Handlers count changed: 9->10 IOHT_ACCEPTOR
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\netio\select\iohandlermanager.cpp:98 Handlers count changed: 10->11 IOHT_ACCEPTOR
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\netio\select\iohandlermanager.cpp:98 Handlers count changed: 10->11 IOHT_ACCEPTOR
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\crtmpserver\src\crtmpserver.cpp:252 Configure instances
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\crtmpserver\src\crtmpserver.cpp:252 Configure instances
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\configfile.cpp:186 Windows doesn't support multiple instances
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\configfile.cpp:186 Windows doesn't support multiple instances
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\crtmpserver\src\crtmpserver.cpp:258 Start I/O handlers manager: select
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\crtmpserver\src\crtmpserver.cpp:258 Start I/O handlers manager: select
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\crtmpserver\src\crtmpserver.cpp:261 Configure applications
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\crtmpserver\src\crtmpserver.cpp:261 Configure applications
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:177 Application admin instantiated
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:177 Application admin instantiated
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\protocols\rtmp\amf0serializer.cpp:29 IN AMF0Serializer constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\protocols\rtmp\amf0serializer.cpp:29 IN AMF0Serializer constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\protocols\rtmp\amf3serializer.cpp:46 IN AMF3Serializer constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\protocols\rtmp\amf3serializer.cpp:46 IN AMF3Serializer constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\common\src\utils\buffering\iobuffer.cpp:179 IN IOBuffer constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\common\src\utils\buffering\iobuffer.cpp:179 IN IOBuffer constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\protocols\rtmp\rtmpprotocolserializer.cpp:26 IN RTMPProtocolSerializer constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\protocols\rtmp\rtmpprotocolserializer.cpp:26 IN RTMPProtocolSerializer constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\protocols\rtmp\basertmpappprotocolhandler.cpp:43 IN BaseRTMPAppProtocolHandler constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\protocols\rtmp\basertmpappprotocolhandler.cpp:43 IN BaseRTMPAppProtocolHandler constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\applications\admin\src\rtmpappprotocolhandler.cpp:37 IN RTMPAppProtocolHandler constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\applications\admin\src\rtmpappprotocolhandler.cpp:37 IN RTMPAppProtocolHandler constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:189 after Application admin Initialize()
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:189 after Application admin Initialize()
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:195 after Application admin ParseAuthentication()
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:195 after Application admin ParseAuthentication()
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:201 after Application admin ActivateAcceptors()
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:201 after Application admin ActivateAcceptors()
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:177 Application appselector instantiated
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:177 Application appselector instantiated
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\protocols\rtmp\amf0serializer.cpp:29 IN AMF0Serializer constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\protocols\rtmp\amf0serializer.cpp:29 IN AMF0Serializer constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\protocols\rtmp\amf3serializer.cpp:46 IN AMF3Serializer constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\protocols\rtmp\amf3serializer.cpp:46 IN AMF3Serializer constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\common\src\utils\buffering\iobuffer.cpp:179 IN IOBuffer constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\common\src\utils\buffering\iobuffer.cpp:179 IN IOBuffer constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\protocols\rtmp\rtmpprotocolserializer.cpp:26 IN RTMPProtocolSerializer constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\protocols\rtmp\rtmpprotocolserializer.cpp:26 IN RTMPProtocolSerializer constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\protocols\rtmp\basertmpappprotocolhandler.cpp:43 IN BaseRTMPAppProtocolHandler constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\protocols\rtmp\basertmpappprotocolhandler.cpp:43 IN BaseRTMPAppProtocolHandler constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:189 after Application appselector Initialize()
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:189 after Application appselector Initialize()
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:195 after Application appselector ParseAuthentication()
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:195 after Application appselector ParseAuthentication()
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:201 after Application appselector ActivateAcceptors()
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:201 after Application appselector ActivateAcceptors()
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:177 Application flvplayback instantiated
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:177 Application flvplayback instantiated
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\mediaformats\readers\streammetadataresolver.cpp:167 meta folder for storage 0x00000001 not specified. seek/meta files will be created inside the media folder
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\mediaformats\readers\streammetadataresolver.cpp:167 meta folder for storage 0x00000001 not specified. seek/meta files will be created inside the media folder
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\mediaformats\readers\streammetadataresolver.cpp:153 mediaFolder J:\media\XLIVE\Mona\crtmpd\crtmpserver\trunk\builders\VS2010\Debug\mediaFolder\ already present in one of the storages
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\mediaformats\readers\streammetadataresolver.cpp:153 mediaFolder J:\media\XLIVE\Mona\crtmpd\crtmpserver\trunk\builders\VS2010\Debug\mediaFolder\ already present in one of the storages
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\mediaformats\readers\streammetadataresolver.cpp:119 Storage failed to initialize storage namedStorage1
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\mediaformats\readers\streammetadataresolver.cpp:119 Storage failed to initialize storage namedStorage1
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\mediaformats\readers\streammetadataresolver.cpp:153 mediaFolder J:\media\XLIVE\Mona\crtmpd\crtmpserver\trunk\builders\VS2010\Debug\mediaFolder\ already present in one of the storages
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\mediaformats\readers\streammetadataresolver.cpp:153 mediaFolder J:\media\XLIVE\Mona\crtmpd\crtmpserver\trunk\builders\VS2010\Debug\mediaFolder\ already present in one of the storages
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\mediaformats\readers\streammetadataresolver.cpp:119 Storage failed to initialize storage namedStorage2
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\mediaformats\readers\streammetadataresolver.cpp:119 Storage failed to initialize storage namedStorage2
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\mediaformats\readers\streammetadataresolver.cpp:153 mediaFolder J:\media\XLIVE\Mona\crtmpd\crtmpserver\trunk\builders\VS2010\Debug\mediaFolder\ already present in one of the storages
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\mediaformats\readers\streammetadataresolver.cpp:153 mediaFolder J:\media\XLIVE\Mona\crtmpd\crtmpserver\trunk\builders\VS2010\Debug\mediaFolder\ already present in one of the storages
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\mediaformats\readers\streammetadataresolver.cpp:119 Storage failed to initialize storage namedStorage3
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\mediaformats\readers\streammetadataresolver.cpp:119 Storage failed to initialize storage namedStorage3
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\netio\select\iohandlermanager.cpp:98 Handlers count changed: 11->12 IOHT_TIMER
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\netio\select\iohandlermanager.cpp:98 Handlers count changed: 11->12 IOHT_TIMER
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\protocols\rtmp\amf0serializer.cpp:29 IN AMF0Serializer constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\protocols\rtmp\amf0serializer.cpp:29 IN AMF0Serializer constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\protocols\rtmp\amf3serializer.cpp:46 IN AMF3Serializer constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\protocols\rtmp\amf3serializer.cpp:46 IN AMF3Serializer constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\common\src\utils\buffering\iobuffer.cpp:179 IN IOBuffer constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\common\src\utils\buffering\iobuffer.cpp:179 IN IOBuffer constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\protocols\rtmp\rtmpprotocolserializer.cpp:26 IN RTMPProtocolSerializer constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\protocols\rtmp\rtmpprotocolserializer.cpp:26 IN RTMPProtocolSerializer constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\protocols\rtmp\basertmpappprotocolhandler.cpp:43 IN BaseRTMPAppProtocolHandler constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\protocols\rtmp\basertmpappprotocolhandler.cpp:43 IN BaseRTMPAppProtocolHandler constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:189 after Application flvplayback Initialize()
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:189 after Application flvplayback Initialize()
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:195 after Application flvplayback ParseAuthentication()
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:195 after Application flvplayback ParseAuthentication()
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:201 after Application flvplayback ActivateAcceptors()
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:201 after Application flvplayback ActivateAcceptors()
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:177 Application proxypublish instantiated
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:177 Application proxypublish instantiated
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\protocols\rtmp\amf0serializer.cpp:29 IN AMF0Serializer constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\protocols\rtmp\amf0serializer.cpp:29 IN AMF0Serializer constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\protocols\rtmp\amf3serializer.cpp:46 IN AMF3Serializer constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\protocols\rtmp\amf3serializer.cpp:46 IN AMF3Serializer constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\common\src\utils\buffering\iobuffer.cpp:179 IN IOBuffer constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\common\src\utils\buffering\iobuffer.cpp:179 IN IOBuffer constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\protocols\rtmp\rtmpprotocolserializer.cpp:26 IN RTMPProtocolSerializer constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\protocols\rtmp\rtmpprotocolserializer.cpp:26 IN RTMPProtocolSerializer constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\protocols\rtmp\basertmpappprotocolhandler.cpp:43 IN BaseRTMPAppProtocolHandler constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\protocols\rtmp\basertmpappprotocolhandler.cpp:43 IN BaseRTMPAppProtocolHandler constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\netio\select\iohandlermanager.cpp:98 Handlers count changed: 12->13 IOHT_TIMER
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\netio\select\iohandlermanager.cpp:98 Handlers count changed: 12->13 IOHT_TIMER
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:189 after Application proxypublish Initialize()
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:189 after Application proxypublish Initialize()
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:195 after Application proxypublish ParseAuthentication()
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:195 after Application proxypublish ParseAuthentication()
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:201 after Application proxypublish ActivateAcceptors()
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:201 after Application proxypublish ActivateAcceptors()
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:177 Application samplefactory instantiated
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:177 Application samplefactory instantiated
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:189 after Application samplefactory Initialize()
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:189 after Application samplefactory Initialize()
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:195 after Application samplefactory ParseAuthentication()
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:195 after Application samplefactory ParseAuthentication()
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:201 after Application samplefactory ActivateAcceptors()
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:201 after Application samplefactory ActivateAcceptors()
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:177 Application stresstest instantiated
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:177 Application stresstest instantiated
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\protocols\rtmp\amf0serializer.cpp:29 IN AMF0Serializer constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\protocols\rtmp\amf0serializer.cpp:29 IN AMF0Serializer constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\protocols\rtmp\amf3serializer.cpp:46 IN AMF3Serializer constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\protocols\rtmp\amf3serializer.cpp:46 IN AMF3Serializer constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\common\src\utils\buffering\iobuffer.cpp:179 IN IOBuffer constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\common\src\utils\buffering\iobuffer.cpp:179 IN IOBuffer constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\protocols\rtmp\rtmpprotocolserializer.cpp:26 IN RTMPProtocolSerializer constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\protocols\rtmp\rtmpprotocolserializer.cpp:26 IN RTMPProtocolSerializer constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\protocols\rtmp\basertmpappprotocolhandler.cpp:43 IN BaseRTMPAppProtocolHandler constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\protocols\rtmp\basertmpappprotocolhandler.cpp:43 IN BaseRTMPAppProtocolHandler constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:189 after Application stresstest Initialize()
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:189 after Application stresstest Initialize()
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:195 after Application stresstest ParseAuthentication()
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:195 after Application stresstest ParseAuthentication()
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:201 after Application stresstest ActivateAcceptors()
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:201 after Application stresstest ActivateAcceptors()
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:177 Application vptests instantiated
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:177 Application vptests instantiated
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\protocols\rtmp\amf0serializer.cpp:29 IN AMF0Serializer constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\protocols\rtmp\amf0serializer.cpp:29 IN AMF0Serializer constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\protocols\rtmp\amf3serializer.cpp:46 IN AMF3Serializer constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\protocols\rtmp\amf3serializer.cpp:46 IN AMF3Serializer constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\common\src\utils\buffering\iobuffer.cpp:179 IN IOBuffer constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\common\src\utils\buffering\iobuffer.cpp:179 IN IOBuffer constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\protocols\rtmp\rtmpprotocolserializer.cpp:26 IN RTMPProtocolSerializer constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\protocols\rtmp\rtmpprotocolserializer.cpp:26 IN RTMPProtocolSerializer constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\protocols\rtmp\basertmpappprotocolhandler.cpp:43 IN BaseRTMPAppProtocolHandler constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\protocols\rtmp\basertmpappprotocolhandler.cpp:43 IN BaseRTMPAppProtocolHandler constructor
+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:189 after Application vptests Initialize()
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:189 after Application vptests Initialize()
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:195 after Application vptests ParseAuthentication()
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:195 after Application vptests ParseAuthentication()
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:201 after Application vptests ActivateAcceptors()
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\thelib\src\configuration\module.cpp:201 after Application vptests ActivateAcceptors()
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\crtmpserver\src\crtmpserver.cpp:267 Install the quit signal
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\crtmpserver\src\crtmpserver.cpp:267 Install the quit signal
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\crtmpserver\src\crtmpserver.cpp:279
++-----------------------------------------------------------------------------+
+|                                                                     Services|
++---+---------------+-----+-------------------------+-------------------------+
+| c |      ip       | port|   protocol stack name   |     application name    |
++---+---------------+-----+-------------------------+-------------------------+
+|tcp|        0.0.0.0| 1112|           inboundJsonCli|                    admin|
++---+---------------+-----+-------------------------+-------------------------+
+|tcp|        0.0.0.0| 1935|              inboundRtmp|              appselector|
++---+---------------+-----+-------------------------+-------------------------+
+|tcp|        0.0.0.0| 8081|             inboundRtmps|              appselector|
++---+---------------+-----+-------------------------+-------------------------+
+|tcp|        0.0.0.0| 8080|             inboundRtmpt|              appselector|
++---+---------------+-----+-------------------------+-------------------------+
+|tcp|        0.0.0.0| 6666|           inboundLiveFlv|              flvplayback|
++---+---------------+-----+-------------------------+-------------------------+
+|tcp|        0.0.0.0| 9999|             inboundTcpTs|              flvplayback|
++---+---------------+-----+-------------------------+-------------------------+
+|tcp|        0.0.0.0| 5544|              inboundRtsp|              flvplayback|
++---+---------------+-----+-------------------------+-------------------------+
+|tcp|        0.0.0.0| 6665|           inboundLiveFlv|             proxypublish|
++---+---------------+-----+-------------------------+-------------------------+
+|tcp|        0.0.0.0| 8989|         httpEchoProtocol|            samplefactory|
++---+---------------+-----+-------------------------+-------------------------+
+|tcp|        0.0.0.0| 8988|             echoProtocol|            samplefactory|
++---+---------------+-----+-------------------------+-------------------------+
+|tcp|        0.0.0.0| 1111|    inboundHttpXmlVariant|                  vptests|
++---+---------------+-----+-------------------------+-------------------------+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\crtmpserver\src\crtmpserver.cpp:279
++-----------------------------------------------------------------------------+
+|                                                                     Services|
++---+---------------+-----+-------------------------+-------------------------+
+| c |      ip       | port|   protocol stack name   |     application name    |
++---+---------------+-----+-------------------------+-------------------------+
+|tcp|        0.0.0.0| 1112|           inboundJsonCli|                    admin|
++---+---------------+-----+-------------------------+-------------------------+
+|tcp|        0.0.0.0| 1935|              inboundRtmp|              appselector|
++---+---------------+-----+-------------------------+-------------------------+
+|tcp|        0.0.0.0| 8081|             inboundRtmps|              appselector|
++---+---------------+-----+-------------------------+-------------------------+
+|tcp|        0.0.0.0| 8080|             inboundRtmpt|              appselector|
++---+---------------+-----+-------------------------+-------------------------+
+|tcp|        0.0.0.0| 6666|           inboundLiveFlv|              flvplayback|
++---+---------------+-----+-------------------------+-------------------------+
+|tcp|        0.0.0.0| 9999|             inboundTcpTs|              flvplayback|
++---+---------------+-----+-------------------------+-------------------------+
+|tcp|        0.0.0.0| 5544|              inboundRtsp|              flvplayback|
++---+---------------+-----+-------------------------+-------------------------+
+|tcp|        0.0.0.0| 6665|           inboundLiveFlv|             proxypublish|
++---+---------------+-----+-------------------------+-------------------------+
+|tcp|        0.0.0.0| 8989|         httpEchoProtocol|            samplefactory|
++---+---------------+-----+-------------------------+-------------------------+
+|tcp|        0.0.0.0| 8988|             echoProtocol|            samplefactory|
++---+---------------+-----+-------------------------+-------------------------+
+|tcp|        0.0.0.0| 1111|    inboundHttpXmlVariant|                  vptests|
++---+---------------+-----+-------------------------+-------------------------+
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\crtmpserver\src\crtmpserver.cpp:280 GO! GO! GO! (19512)
+j:\media\xlive\mona\crtmpd\crtmpserver\trunk\sources\crtmpserver\src\crtmpserver.cpp:280 GO! GO! GO! (19512)

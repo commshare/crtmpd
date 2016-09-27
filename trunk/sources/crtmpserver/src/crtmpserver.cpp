@@ -270,6 +270,7 @@ bool Initialize() {
 	return true;
 }
 
+/*一直循环*/
 void Run() {
 	if (!ApplyUIDGID()) {
 		FATAL("Unable to apply user id");
@@ -277,6 +278,7 @@ void Run() {
 	}
 	INFO("\n%s", STR(gRs.pConfigFile->GetServicesInfo()));
 	INFO("GO! GO! GO! (%"PRIu32")", (uint32_t) GetPid());
+	/*IO驱动*/
 	while (IOHandlerManager::Pulse()) {
 		IOHandlerManager::DeleteDeadHandlers();
 		ProtocolManager::CleanupDeadProtocols();

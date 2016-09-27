@@ -176,6 +176,7 @@ do { \
 #endif /* TRACK_ALLOCATIONS */
 
 IOBuffer::IOBuffer() {
+	INFO("IN IOBuffer constructor \n");
 	_pBuffer = NULL;
 	_size = 0;
 	_published = 0;
